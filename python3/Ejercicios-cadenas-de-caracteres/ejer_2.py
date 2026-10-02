@@ -1,0 +1,5 @@
+print("Dime tu nombre: ")
+nombre = input()
+print(nombre.upper())
+print(nombre.lower())
+print(nombre.title())

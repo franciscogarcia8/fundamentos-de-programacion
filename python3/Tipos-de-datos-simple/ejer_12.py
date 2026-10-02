@@ -1,0 +1,5 @@
+barras = int(input("Barras no frescas: "))
+total = barras * (3.49 * 0.4)
+print("Precio habitual: 3.49€")
+print("Descuento: 60%")
+print("Coste total:", round(total, 2), "€")

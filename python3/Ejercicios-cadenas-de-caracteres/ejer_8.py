@@ -1,0 +1,5 @@
+precio = float(input("Introduce el precio del producto en euros: "))
+euros = int(precio)
+centimos = int(round((precio - euros) * 100))
+print("Euros:", euros)
+print("Céntimos:", centimos)
